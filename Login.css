@@ -1,0 +1,42 @@
+/* src/Login.css */
+.app{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url('./assets/arka-plan.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+
+.Login {
+    text-align: center;
+    margin-top: 225px;
+  }
+  
+  form {
+    display: inline-block;
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+    color: white;
+  }
+  
+  input {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 10px;
+  }
+  
